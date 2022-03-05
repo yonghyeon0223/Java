@@ -8,7 +8,7 @@ public class StringBuffers{
         sb.append(" of all time!!!");
 
         String result = sb.toString();
-        System.out.println(result);
+        System.out.println(result); // Sonny is perhaps the GOAT of all time!!!
 
         //------------------------------------------
 
@@ -16,7 +16,13 @@ public class StringBuffers{
         str += "Sonny is per";
         str += "haps the GOAT";
         str += " of all time!!!";
-        System.out.println(str);
+        System.out.println(str); // Sonny is perhaps the GOAT of all time!!!
+
+        //------------------------------------------
+        sb.insert(0, "Actually.. ");
+        System.out.println(sb); // Actually.. Sonny is perhaps the GOAT of all time!!!
+        
+        System.out.println(sb.substring(0, 20)); // Actually.. Sonny is 
 
     }
 }
