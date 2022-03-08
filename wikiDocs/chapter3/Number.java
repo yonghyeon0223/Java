@@ -18,6 +18,8 @@ public class Number{
         int i = 020; // 16 (octal)
         int j = 0x20; // 32 (hexadecimal)
 
+
+
         String result1 = String.format("A: %s\nB: %s\nC: %s\nD: %s\n", a, b, c, d);
         String result2 = String.format("F: %s\nG: %s\n", f, g);
         String result3 = String.format("I: %s\nJ: %s", i, j);
