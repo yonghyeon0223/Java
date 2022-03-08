@@ -23,6 +23,6 @@ public class maps {
                 duplicateNum += 1;
         }
 
-        System.out.println(duplicateNum);
+        System.out.printf("Number of duplicate given array has: %s.\n", duplicateNum);
     }
 }
